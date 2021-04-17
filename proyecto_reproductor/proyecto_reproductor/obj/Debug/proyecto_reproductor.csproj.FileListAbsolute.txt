@@ -1,0 +1,17 @@
+D:\Universidad\Programacion III\proyecto_reproductor\proyecto_reproductor\bin\Debug\proyecto_reproductor.exe
+D:\Universidad\Programacion III\proyecto_reproductor\proyecto_reproductor\bin\Debug\proyecto_reproductor.pdb
+D:\Universidad\Programacion III\proyecto_reproductor\proyecto_reproductor\bin\Debug\Interop.WMPLib.dll
+D:\Universidad\Programacion III\proyecto_reproductor\proyecto_reproductor\bin\Debug\AxInterop.WMPLib.dll
+D:\Universidad\Programacion III\proyecto_reproductor\proyecto_reproductor\obj\Debug\proyecto_reproductor.csprojAssemblyReference.cache
+D:\Universidad\Programacion III\proyecto_reproductor\proyecto_reproductor\obj\Debug\Interop.WMPLib.dll
+D:\Universidad\Programacion III\proyecto_reproductor\proyecto_reproductor\obj\Debug\AxInterop.WMPLib.dll
+D:\Universidad\Programacion III\proyecto_reproductor\proyecto_reproductor\obj\Debug\proyecto_reproductor.csproj.ResolveComReference.cache
+D:\Universidad\Programacion III\proyecto_reproductor\proyecto_reproductor\obj\Debug\proyecto_reproductor.Form1.resources
+D:\Universidad\Programacion III\proyecto_reproductor\proyecto_reproductor\obj\Debug\proyecto_reproductor.Properties.Resources.resources
+D:\Universidad\Programacion III\proyecto_reproductor\proyecto_reproductor\obj\Debug\proyecto_reproductor.csproj.GenerateResource.cache
+D:\Universidad\Programacion III\proyecto_reproductor\proyecto_reproductor\obj\Debug\proyecto_reproductor.csproj.CoreCompileInputs.cache
+D:\Universidad\Programacion III\proyecto_reproductor\proyecto_reproductor\obj\Debug\proyecto_reproductor.exe
+D:\Universidad\Programacion III\proyecto_reproductor\proyecto_reproductor\obj\Debug\proyecto_reproductor.pdb
+D:\Universidad\Programacion III\proyecto_reproductor\proyecto_reproductor\obj\Debug\proyecto_reproductor.PlayList.resources
+D:\Universidad\Programacion III\proyecto_reproductor\proyecto_reproductor\obj\Debug\proyecto_reproductor.DataPlaylist.resources
+D:\Universidad\Programacion III\proyecto_reproductor\proyecto_reproductor\obj\Debug\proyecto_reproductor.ListaCancion.resources
