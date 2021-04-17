@@ -37,22 +37,25 @@ namespace proyecto_reproductor
                 reproductor.agregar();
                 foreach (var cancion in reproductor.canciones)
                 {
-                    list_canciones.Items.Add(cancion.nombre);
+                    list_canciones.Items.Add(cancion.nombre.Replace(".mp3",""));
                 }
-                repro_umg.URL = reproductor.canciones[n_cancion].ruta;
-                list_canciones.SelectedIndex = n_cancion;
-                labelAlbum.Text = reproductor.canciones[n_cancion].album;
-                labelAnio.Text = reproductor.canciones[n_cancion].anio;
-                labelDuracion.Text = reproductor.canciones[n_cancion].duracion.Substring(0,8);
-
+                
             }
-                   
+            repro_umg.URL = reproductor.canciones[n_cancion].ruta;
+            list_canciones.SelectedIndex = n_cancion;
+            labelAlbum.Text = reproductor.canciones[list_canciones.SelectedIndex].album;
+            labelAnio.Text = reproductor.canciones[list_canciones.SelectedIndex].anio;
+            labelDuracion.Text = reproductor.canciones[list_canciones.SelectedIndex].duracion.Substring(0,8);
+
             //lb_texto.Text = reproducciones == 0 ? "" : "Seguro que quieres reprodicir la playlist:";
         }
 
         private void list_canciones_SelectedIndexChanged(object sender, EventArgs e)
         {
             repro_umg.URL = reproductor.canciones[list_canciones.SelectedIndex].ruta;
+            labelAlbum.Text = reproductor.canciones[list_canciones.SelectedIndex].album;
+            labelAnio.Text = reproductor.canciones[list_canciones.SelectedIndex].anio;
+            labelDuracion.Text = reproductor.canciones[list_canciones.SelectedIndex].duracion.Substring(0,8);
         }
 
         private void btx_agregar_Click(object sender, EventArgs e)
@@ -71,6 +74,9 @@ namespace proyecto_reproductor
             }
             repro_umg.URL = reproductor.canciones[n_cancion].ruta;
             list_canciones.SelectedIndex = n_cancion;
+            labelAlbum.Text = reproductor.canciones[list_canciones.SelectedIndex].album;
+            labelAnio.Text = reproductor.canciones[list_canciones.SelectedIndex].anio;
+            labelDuracion.Text = reproductor.canciones[list_canciones.SelectedIndex].duracion.Substring(0,8);
 
         }
 
@@ -83,6 +89,11 @@ namespace proyecto_reproductor
             {
                 n_cancion = 0;
             }
+
+            labelAlbum.Text = reproductor.canciones[list_canciones.SelectedIndex].album;
+            labelAnio.Text = reproductor.canciones[list_canciones.SelectedIndex].anio;
+            labelDuracion.Text = reproductor.canciones[list_canciones.SelectedIndex].duracion.Substring(0,8);
+
 
         }
 
